@@ -1,0 +1,81 @@
+/* ABOUT PAGE CONTAINER */
+.about-page {
+    width: 100%;
+    padding: 40px 60px;
+}
+
+/* HEADER */
+.about-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #9c27b0;
+    margin-bottom: 10px;
+}
+
+.about-subtitle {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+/* THREE SECTIONS IN A ROW */
+.about-container {
+    display: flex;
+    justify-content: flex-start; /* Align to the left */
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+}
+
+/* EACH SECTION (WHY CHOOSE, CONTACT, FOLLOW) */
+.about-section {
+    flex: 1;
+    max-width: 380px; /* Keeps boxes equal */
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-left: 6px solid #9c27b0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* TITLE & TEXT */
+.about-section h2 {
+    font-size: 1.8rem;
+    color: #6a1b9a;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-section p, .about-section ul {
+    font-size: 1.2rem;
+    color: #333;
+    line-height: 1.7;
+}
+
+/* ICONS */
+.icon {
+    font-size: 1.6rem;
+    margin-right: 10px;
+    color: #9c27b0;
+}
+
+/* RESPONSIVE FIX: ON SMALLER SCREENS, SWITCH TO COLUMN LAYOUT */
+@media (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

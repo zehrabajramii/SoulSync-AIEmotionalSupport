@@ -1,0 +1,162 @@
+/* Reset + Font */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  transition: background 1s ease-in-out;
+}
+
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  gap: 20px; /* Space between elements */
+  transform: scale(1.1); /* Scale everything up by 10% (reduced from 1.2) */
+  transform-origin: center center; /* Ensure scaling is centered */
+}
+
+/* Title */
+.title {
+    font-weight: bold;
+    color: #7a4b94;
+    font-size: 3rem; /* Increased font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+
+/* EMOJI WRAPPER + RING */
+.emoji-wrapper {
+  position: relative;
+  width: 176px; /* Slightly increased size */
+  height: 176px; /* Slightly increased size */
+  margin: 20px 0;
+}
+
+.emoji-ring {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 176px; /* Slightly increased size */
+  height: 176px; /* Slightly increased size */
+  border-radius: 50%;
+  opacity: 0.6;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.emoji-ring:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.emoji {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  font-size: 8.8rem; /* Slightly increased font size */
+  z-index: 2;
+}
+
+/* Mood Slider */
+.mood-slider {
+  width: 44%; /* Slightly increased width */
+  margin: 20px 0;
+  color: #9c27b0; /* Purple slider color */
+  transition: transform 0.3s;
+}
+
+.mood-slider:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.mood-slider .MuiSlider-track {
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(to right, #ff6b6b, #ffb480, #ffd93d, #6bcf73, #7f7fff); /* Gradient colors for slider */
+  border: none; /* Remove any border around the track */
+}
+
+/* Ensure the thumb grows but does not affect the surrounding track */
+.mood-slider .MuiSlider-thumb {
+  width: 22px; /* Slightly increased size */
+  height: 22px; /* Slightly increased size */
+  background-color: #9c27b0;
+  border: 3px solid #ffffff; /* White border around the thumb */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: width 0.2s, height 0.2s, box-shadow 0.2s;
+}
+
+.mood-slider .MuiSlider-thumb:hover {
+  width: 28.6px; /* Slightly increased size */
+  height: 28.6px; /* Slightly increased size */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure rail remains unchanged */
+.mood-slider .MuiSlider-rail {
+  height: 8px;
+  border-radius: 4px;
+  background-color: rgba(122, 75, 148, 0.3);
+}
+
+/* Mood Bubble */
+.mood-bubble {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 16.5px 27.5px; /* Slightly increased padding */
+  border-radius: 25px;
+  display: inline-block;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(8px); /* Safari support (must come first) */
+  backdrop-filter: blur(8px); /* Standard property */
+}
+
+.mood-label {
+  font-size: 1.65rem; /* Slightly increased font size */
+  font-weight: 600;
+  color: #6c017e;
+  margin-bottom: 5px;
+}
+
+.mood-quote {
+  font-size: 1.21rem; /* Slightly increased font size */
+  color: #484646;
+  font-style: italic;
+}
+
+/* Continue Button */
+.continue-button {
+    background: linear-gradient(to right, #9c27b0, #ba68c8);
+    color: #ffffff; /* Bright white for high contrast */
+  font-weight: bold; /* Make text bolder */
+  letter-spacing: 1px; /* Add spacing for readability */
+  text-transform: uppercase; /* Ensure consistency */
+  padding: 17.6px 44px; /* Slightly increased padding */
+  border-radius: 100%;
+  border: 2px solid #fff; /* White border for better definition */
+  cursor: pointer;
+  box-shadow: 0px 5px 15px rgba(172, 160, 178, 0.4);
+  transition: transform 0.3s, background 0.3s, box-shadow 0.3s, border-color 0.3s, color 0.3s;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.continue-button:hover {
+    background: linear-gradient(to left, #9c27b0, #ba68c8);
+    transform: scale(1.08);
+  box-shadow: 0 10px 30px rgba(122, 75, 148, 0.4);
+  border-color: #ffd1dc; /* Change border color on hover */
+}
