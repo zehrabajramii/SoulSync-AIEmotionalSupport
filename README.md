@@ -44,7 +44,27 @@ npm start
 The frontend runs on `http://localhost:3000`  
 
 ## 🖼️ **Screenshots & Demo**  
-📌 _Screenshots will be added here to showcase the UI and features._  
+
+### Home Page  
+![Home Page](https://github.com/user-attachments/assets/a6344640-c3f8-44c5-aa39-5e15284965f0)  
+
+### AI Response Page  
+![AI Response](https://github.com/user-attachments/assets/c5a4cc54-2034-4fd8-af31-0c684962c3a0)  
+
+### Emotion Posting Page  
+![Emotion Posts](https://github.com/user-attachments/assets/7c1c9852-7d2e-47b5-8f4b-518822968829)  
+
+### Psychologists Page  
+![Psychologists](https://github.com/user-attachments/assets/b19778ba-ec47-412a-aeaf-861d5e4f9e18)  
+
+### About Page  
+![About Page](https://github.com/user-attachments/assets/59322520-6dca-4bb7-a069-4cff3fa2ab7c)  
+
+### Emotion Scale Page  
+![Emotion Scale](https://github.com/user-attachments/assets/8092b7de-e8eb-40c3-9e07-559c4f9b6dcb)  
+
+### User Input Page  
+![User Input](https://github.com/user-attachments/assets/bd973fb0-e50b-400c-8b0f-005fef758f37)  
 
 ## 🔥 **Features**  
 ✔️ Emotion Analysis using AI  
