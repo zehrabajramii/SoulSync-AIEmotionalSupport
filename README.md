@@ -43,7 +43,7 @@ npm start
 ```
 The frontend runs on `http://localhost:3000`  
 
-## 🖼️ **Screenshots & Demo**  
+## 📷 **Screenshots & Demo**  
 
 ### Home Page  
 ![Home Page](https://github.com/user-attachments/assets/c5a4cc54-2034-4fd8-af31-0c684962c3a0)  
