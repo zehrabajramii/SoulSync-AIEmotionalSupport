@@ -85,7 +85,7 @@ The frontend runs on `http://localhost:3000`
 4. **Push to GitHub** (`git push origin feature-name`)  
 5. **Submit a Pull Request** ✅  
 
-## 📜 **License**  
-SoulSync is open-source and licensed under **MIT License**.  
+## ✨ **Support & Credits**  
+SoulSync is built with passion and dedication to support mental well-being.  
 
-💙 **Made with love to support mental well-being!**
+💜 **Made with care to help people navigate their emotions and find support!**  
