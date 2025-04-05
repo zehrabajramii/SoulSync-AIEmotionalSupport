@@ -86,6 +86,6 @@ The frontend runs on `http://localhost:3000`
 5. **Submit a Pull Request** ✅  
 
 ## ✨ **Support & Credits**  
-SoulSync is built with passion and dedication to support mental well-being.  
+SoulSync is built with passion and dedication by a group of three: Gresa Salihi, Zehra Bajrami, and Isra Osmani, to support mental well-being. 
 
 💜 **Made with care to help people navigate their emotions and find support!**  
